@@ -397,6 +397,10 @@
         }
     </style>
 
+    {{-- Livewire --}}
+    @livewireStyles
+    {{-- <livewire:styles /> --}}
+
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -406,6 +410,9 @@
 
 <body class="antialiased">
     {{ $slot }}
+
+    @livewireScripts
+    {{-- <livewire:scripts /> --}}
 </body>
 
 </html>
