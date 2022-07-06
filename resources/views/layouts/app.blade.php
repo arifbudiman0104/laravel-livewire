@@ -411,6 +411,8 @@
 </head>
 
 <body class="antialiased">
+    {{-- Navbar here --}}
+
     {{ $slot }}
 
     @livewireScripts
